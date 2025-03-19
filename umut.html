@@ -1,0 +1,118 @@
+
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+
+<h1>My Website</h1>
+<p>A website created by me.</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Programlama Ödevi</title>
+  <style>
+    /* Başlık stili: monotype corsiva, 20px, kalın */
+    .title {
+      font-family: "Monotype Corsiva", cursive;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    /* Tablo ve liste stili */
+    table {
+      width: 50%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    /* Büyük resim merkezi yerleştirildi */
+    .center-image {
+      text-align: center;
+      margin-top: 20px;
+    }
+    /* Sağ üstteki tatil gemisi resmi */
+    .top-right {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    /* Alt sağ köşedeki resim */
+    .bottom-right {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+    }
+    /* Linkler için basit stil */
+    .links {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Başlık -->
+  <h1 class="title">Ramazan Menüsü</h1>
+  
+  <!-- Ramazan Menüsü'nün liste olarak tabloya eklenmesi -->
+  <table>
+    <tr>
+      <td>
+        <ul>
+          <li>İftar Çorbası</li>
+          <li>Pilav</li>
+          <li>Kebap</li>
+          <li>Salata</li>
+          <li>Tatlı</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+  
+  <!-- Büyük resim (merkezde), tıklandığında resmi yeni pencerede açar -->
+  <div class="center-image">
+    <a href="buyukresim.jpg" target="_blank">
+      <img src="buyukresim.jpg" alt="Büyük Resim" style="width:50%; border: 1px solid #000;">
+    </a>
+  </div>
+  
+  <!-- Sağ üstteki tatil gemisi resmi, tıklandığında tatil sitesi bağlantısına yönlendirir -->
+  <div class="top-right">
+    <a href="https://www.ornektatil.com" target="_blank">
+      <img src="tatilgemisi.jpg" alt="Tatil Gemisi" style="width:100px;">
+    </a>
+  </div>
+  
+  <!-- Linkler: "Tıklayınız" Yandex'e, diğerleri ilgili (şu an boş) sayfalara -->
+  <div class="links">
+    <a href="https://yandex.com" target="_blank">Tıklayınız</a>
+    <a href="#">Gezi rehberi</a>
+    <a href="#">Yurt dışı geziler</a>
+    <a href="#">Dünya turu</a>
+  </div>
+  
+  <!-- Alt sağ köşede tek bir resim -->
+  <div class="bottom-right">
+    <img src="altsagresim.jpg" alt="Alt Resim" style="width:100px;">
+  </div>
+
+</body>
+</html>
